@@ -197,3 +197,9 @@ docker service create --name nginx-service --replicas 1 -p 4500:4500 meu-nginx
 ### Acessar Aplicação:
 
 - Acesse a aplicação através do endereço IP de qualquer uma das instâncias (por exemplo, http://seu-endereco-publico-ec2).
+
+# Estresse
+
+Para os testes de estresse do contâiner e do serviço, foi utilizado o site: [loader.io](https://loader.io/)
+
+![loader]()
