@@ -202,4 +202,4 @@ docker service create --name nginx-service --replicas 1 -p 4500:4500 meu-nginx
 
 Para os testes de estresse do contâiner e do serviço, foi utilizado o site: [loader.io](https://loader.io/)
 
-![loader]()
+![loader](https://raw.githubusercontent.com/devcaiada/microsservice-docker/refs/heads/main/assets/loader.png)
