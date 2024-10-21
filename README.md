@@ -196,4 +196,4 @@ docker service create --name nginx-service --replicas 1 -p 4500:4500 meu-nginx
 
 ### Acessar Aplicação:
 
-- Acesse a aplicação através do endereço IP de qualquer uma das instâncias (por exemplo, http://seu-endereco-publico-ec2).
+- Acesse a aplicação através do endereço IP de qualquer uma das instâncias (por exemplo, http://seu-endereco-publico-ec2:4500).
